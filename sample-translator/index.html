@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Translator Sample</title>
+        <link href="jquery-mobile/styles/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css" />
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+
+        <script src="cordova.js" type="text/javascript"></script>
+
+        <script src="jquery-mobile/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="jquery-mobile/js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="home" title="Translator Sample">
+            <header data-role="header">
+                <div data-role="navbar">
+                    <span data-role="view-title">Translator Sample</span>
+                </div>
+            </header>
+            <form  id="translateForm">
+                <label for="sourceLanguage">From:</label>
+                <select id="sourceLanguage" name="sourceLanguage">
+                    <option selected="selected" value="en-GB">English</option>
+                </select>
+                <label for="destLanguage">To:</label>
+                <select id="destLanguage" name="destLanguage">
+                    <option selected="selected" value="ja-JA">Japanese</option>
+                </select>
+                <br>
+                <label for="translateText">Text to translate: </label>
+                <input type="search" class="tlt" name="translateText" id="translateText" placeholder="text" data-mini="true"     />
+                <br>
+                <label for="translatedText">Translated text: </label>
+                <input type="text" class="tlt" name="translatedText" id="translatedText" data-mini="true" disabled />
+                <br>
+                <input type="submit" id="translateButton" style="width:100%" data-role="button" value="Translate" />
+                <script src="scripts/main.js" type="text/javascript"></script>
+            </form>
+        </div>
+    </body>
+</html>

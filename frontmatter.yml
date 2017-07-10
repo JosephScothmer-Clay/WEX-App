@@ -1,0 +1,8 @@
+title: Translator
+slug: sample-translator
+page_title: Translator | Apache Cordova Sample | Telerik Platform
+description: This demo application is a simple translator app which uses the MyMemory service via its RESTful API. The app is created with jQuery Mobile.
+tags: jQuery, jQuery Mobile, Apache Cordova, hybrid, iOS, Android, Windows Phone, header, form, navbar, translation
+publish: true
+content_filter: true
+apis: jquery jquery.header jquery.navbar cordova.splashscreen myMemory

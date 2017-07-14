@@ -1,9 +1,10 @@
 {
-  "ProjectGuid": "0ddd68df-b316-4ffe-9dcb-658ee2da6201",
+  "Framework": "Cordova",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "6.4.0",
+  "ProjectGuid": "0ddd68df-b316-4ffe-9dcb-658ee2da6201",
   "AppIdentifier": "com.telerik.sampletranslator",
   "ProjectName": "sample-translator",
-  "FrameworkVersion": "6.4.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -39,8 +40,7 @@
     "2"
   ],
   "AndroidVersionCode": "1",
-  "Framework": "Cordova",
-  "projectVersion": 1,
+  "projectVersion": "1",
   "WP8PublisherID": "{469b8f27-33a1-4fe1-9b52-14bae1fa3a27}",
   "WP8ProductID": "{f2478fe5-38f3-49a3-b10c-00cfe7c7fce3}",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.sampletranslator",

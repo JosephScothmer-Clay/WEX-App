@@ -1,8 +1,53 @@
+a {
+    text-decoration: none; 
+}
+
+li a:hover {
+    background:#00FFFF url(images/bg.png) no-repeat 0 -20px;
+}
+
+button a:hover {
+    background:#00FFFF url(images/bg.png) no-repeat 0 -20px;
+    padding: 8px;
+}
+
+
+.BackPage {
+    width: 50px;
+}
+
+#TitleM {
+    text-align: center;
+    margin: 1em;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    text-decoration : none;
+    opacity: 0.5;
+}
+
 @-ms-viewport {
     width: device-width;
 }
 
-#translateForm {
+#translateForm{
     margin: 1em;
 }
 
@@ -67,7 +112,7 @@
     width:60%;
     margin:5px;
     float: left;
-    background-color: #fff;
+    background-color: #FFF;
     font-style: italic;
     color: #000;
     padding: 7px 10px;
@@ -100,7 +145,7 @@
     float: left;
     width: 40px;
     height: 40px;
-    color:#fff;
+    color:#00ffff;
     border:none;
     background:none;
     background-image:url(../styles/images/location.png);
